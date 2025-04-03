@@ -9,10 +9,11 @@ public int edadUsuario;
 public float alturaUsuario;
 public bool esDonante;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-        Debug.Log("mi nombre es " + nombreUsuario);
+        Debug.Log("mi nombre es " + nombreUsuario + " mido"
+            + alturaUsuario);
     }
 
     // Update is called once per frame
